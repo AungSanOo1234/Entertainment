@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+  
+</head>
+<body>
+  <h1>Hello World</h1>
+  <script>
+     var items=[1,2,3,4,5,6,7,6,5,4,3,2,1];
+     let greaterthantwo=false;
+     let someitems=[];
+     for(let item of items){
+       if(item>2){
+        greaterthantwo=true;
+       }
+       if(item>4){
+        someitems.push(item);
+        }
+       }
+       if(greaterthantwo){
+          alert("Some items are greater then 2");
+       }else{
+          alert("No item is greater than 2");
+       }
+
+  </script> 
+
+
+ 
+
+ 
+  
+  
+</body>
+ 
+</html>
